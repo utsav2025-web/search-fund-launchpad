@@ -58,14 +58,6 @@ const Team = () => {
             <div className="flex flex-col sm:flex-row md:flex-col gap-3 shrink-0 md:-mt-2">
               <div className="relative">
                 <img src={utsavChildhood} alt="Utsav as a child with siblings" className="w-full sm:w-52 h-40 md:w-64 md:h-48 object-cover rounded-sm" />
-                {/* Arrow pointing to Utsav (kid on the right) */}
-                <div className="absolute top-2 right-[14%] flex flex-col items-center">
-                  <span className="text-xs font-display font-bold text-white bg-primary/80 px-2 py-0.5 rounded-sm shadow">me</span>
-                  <svg width="16" height="24" viewBox="0 0 16 24" className="mt-0.5">
-                    <line x1="8" y1="0" x2="8" y2="18" stroke="white" strokeWidth="2" />
-                    <polygon points="2,16 8,24 14,16" fill="white" />
-                  </svg>
-                </div>
               </div>
               <img src={utsavFrankie} alt="Utsav with his dog Frankie" className="w-full sm:w-52 h-40 md:w-64 md:h-48 object-cover rounded-sm" />
             </div>
