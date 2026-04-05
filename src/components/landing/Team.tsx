@@ -16,7 +16,7 @@ const people = [
     name: "Matthew W.",
     role: "Operating Partner & Two Evergreen Investor",
     initials: "MW",
-    linkedin: "https://www.linkedin.com/in/matthew-winans-a5b00721/",
+    linkedin: "",
     bio: "Matt is a Navy veteran and the former CEO of several security integration companies, including CCOM. I've known Matt for over five years and have learned a tremendous amount from working alongside him. He has spent decades building and leading security businesses while always supporting the teams that serve customers every day.",
   },
   {
@@ -87,13 +87,6 @@ const Team = () => {
                 <div className="relative">
                   <img src={utsavChildhood} alt="Utsav as a child with siblings"
                     className="w-full sm:w-52 h-40 md:w-60 md:h-44 object-cover rounded-sm" />
-                  <div className="absolute top-2 right-[14%] flex flex-col items-center">
-                    <span className="text-xs font-display font-bold text-white bg-primary/80 px-2 py-0.5 rounded-sm shadow">me</span>
-                    <svg width="14" height="20" viewBox="0 0 16 24" className="mt-0.5">
-                      <line x1="8" y1="0" x2="8" y2="16" stroke="white" strokeWidth="2" />
-                      <polygon points="2,14 8,22 14,14" fill="white" />
-                    </svg>
-                  </div>
                 </div>
                 <img src={utsavFrankie} alt="Utsav with his dog Frankie"
                   className="w-full sm:w-52 h-40 md:w-60 md:h-44 object-cover rounded-sm" />
