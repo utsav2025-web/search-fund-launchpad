@@ -17,14 +17,14 @@ const people = [
     role: "Operating Partner & Two Evergreen Investor",
     initials: "MW",
     linkedin: "",
-    bio: "Matt is a Navy veteran and the former CEO of several security integration companies, including CCOM. I've known Matt for over five years and have learned a tremendous amount from working alongside him. He has spent decades building and leading security businesses while always supporting the teams that serve customers every day.",
+    bio: "Matt is a Navy veteran who has spent his career in the security integration industry — founding, running, and growing companies from the ground up. I've worked alongside him for over five years and seen firsthand how he leads: with deep respect for the people doing the work every day. He knows this business from the inside out.",
   },
   {
     name: "Jim N.",
     role: "Advisor",
     initials: "JN",
     linkedin: "",
-    bio: "Jim is an Army veteran and currently the Global Head of Security at Apple. I've had the opportunity to learn from Jim and benefit from his perspective on the security industry. He brings decades of experience leading large security organizations and advising companies on how to protect their people, facilities, and operations.",
+    bio: "Jim is an Army veteran and the Global Head of Security at Apple. He has spent decades leading large security organizations and knows what it takes to build teams that actually protect people, facilities, and operations at scale. His perspective on the industry is something we lean on heavily.",
   },
 ];
 
