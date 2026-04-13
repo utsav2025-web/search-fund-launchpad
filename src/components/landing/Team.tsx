@@ -17,7 +17,7 @@ const people = [
     role: "Operating Partner & Two Evergreen Investor",
     initials: "MW",
     linkedin: "",
-    bio: "Matt is a Navy veteran who has spent his career in the security integration industry — founding, running, and growing companies from the ground up. I've worked alongside him for over five years and seen firsthand how he leads: with deep respect for the people doing the work every day. He knows this business from the inside out.",
+    bio: "Matt is a Navy veteran who has spent his career in the security integration industry — founding, running, and growing companies from the ground up. I've worked alongside him for over five years and seen firsthand how he leads: with deep respect for the people doing the work every day.",
   },
   {
     name: "Jim N.",
