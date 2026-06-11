@@ -43,8 +43,7 @@ const Thesis = () => {
             </h2>
           </div>
           <p className="text-base text-muted-foreground leading-relaxed font-light max-w-sm md:text-right">
-            We seek to acquire a single, exceptional business in the security
-            industry — one with strong unit economics, a dedicated team, and
+            We seek to acquire a single, exceptional business — one with strong unit economics, a dedicated team, and
             room to grow under committed ownership.
           </p>
         </motion.div>
