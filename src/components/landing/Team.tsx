@@ -1,6 +1,5 @@
 import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
-import utsavChildhood from "@/assets/utsav-childhood.png";
 
 const people = [
   {
@@ -17,7 +16,7 @@ const people = [
     initials: "MW",
     linkedin: "",
     bio: "I'm a U.S. Navy veteran who has spent more than twenty years founding, operating, and growing businesses from the ground up. Over the course of my career, I've built and successfully exited multiple companies serving government and commercial customers, including Fortune 100 organizations such as Marathon.\n\nAfter decades of building businesses, I've come to believe that great companies are defined by their people, culture, and reputation. The most successful organizations invest in their employees, put customers first, and take a long-term view. That's the approach I've tried to bring to every business I've led.\n\nFive years ago, I met Utsav. His experience as both an investor and operator complements my background as a founder and business builder. Together, we bring different perspectives but share the same goal: honoring what owners have built while creating opportunities for employees, customers, and the communities they serve.\n\nWe're not looking to buy a business and move on. We're looking for a great company to own, operate, and strengthen for the long term.",
-    cta: "I'd welcome the opportunity to get to know you and learn the story behind your business.", 
+    cta: "I'd welcome the opportunity to get to know you and learn the story behind your business.",
   },
   {
     name: "Jim N.",
@@ -51,73 +50,36 @@ const Team = () => {
           </p>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-          className="rounded-sm border border-border bg-card border-t-2 border-t-accent/50 shadow-sm mb-6"
-        >
-          <div className="p-8 md:p-10">
-            <div className="flex items-center gap-4 mb-8">
-              <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shrink-0">
-                <span className="text-sm font-display font-bold text-accent">{people[0].initials}</span>
-              </div>
-              <div>
-                <h4 className="text-lg font-display font-semibold text-foreground">{people[0].name}</h4>
-                <p className="text-sm text-accent font-medium">{people[0].role}</p>
-              </div>
-              {people[0].linkedin && (
-                <a href={people[0].linkedin} target="_blank" rel="noopener noreferrer"
-                  className="ml-auto text-muted-foreground hover:text-accent transition-colors">
-                  <Linkedin size={18} />
-                </a>
-              )}
-            </div>
-            <div className="flex flex-col md:flex-row gap-8 md:gap-12">
-              <div className="flex-1 space-y-4 text-sm text-muted-foreground leading-relaxed">
-                {people[0].bio.split("\n\n").map((paragraph, idx) => (
-                  <p key={idx}>{paragraph}</p>
-                ))}
-                <p className="italic text-accent/80 border-t border-border pt-4 mt-4">{people[0].cta}</p>
-              </div>
-              <div className="flex flex-col sm:flex-row md:flex-col gap-3 shrink-0">
-                <div className="relative">
-                  <img src={utsavChildhood} alt="Utsav as a child with siblings"
-                    className="w-full sm:w-52 h-40 md:w-60 md:h-44 object-cover rounded-sm" />
-                </div>
-                <img src={utsavFrankie} alt="Utsav with his dog Frankie"
-                  className="w-full sm:w-52 h-40 md:w-60 md:h-44 object-cover rounded-sm" />
-              </div>
-            </div>
-          </div>
-        </motion.div>
-
-        <div className="grid sm:grid-cols-2 gap-6">
-          {people.slice(1).map((person, i) => (
+        <div className="flex flex-col gap-6">
+          {people.map((person, i) => (
             <motion.div key={person.name}
               initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }} transition={{ duration: 0.5, delay: (i + 1) * 0.1 }}
-              className="p-8 rounded-sm border border-border bg-card border-t-2 border-t-accent/30 shadow-sm">
-              <div className="flex items-center gap-4 mb-6">
-                <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shrink-0">
-                  <span className="text-sm font-display font-bold text-accent">{person.initials}</span>
+              viewport={{ once: true }} transition={{ duration: 0.6, delay: i * 0.1 }}
+              className="rounded-sm border border-border bg-card border-t-2 border-t-accent/50 shadow-sm">
+              <div className="p-8 md:p-10">
+                <div className="flex items-center gap-4 mb-8">
+                  <div className="w-14 h-14 rounded-full bg-primary flex items-center justify-center shrink-0">
+                    <span className="text-sm font-display font-bold text-accent">{person.initials}</span>
+                  </div>
+                  <div>
+                    <h4 className="text-lg font-display font-semibold text-foreground">{person.name}</h4>
+                    <p className="text-sm text-accent font-medium">{person.role}</p>
+                  </div>
+                  {person.linkedin && (
+                    <a href={person.linkedin} target="_blank" rel="noopener noreferrer"
+                      className="ml-auto text-muted-foreground hover:text-accent transition-colors">
+                      <Linkedin size={18} />
+                    </a>
+                  )}
                 </div>
-                <div className="flex-1">
-                  <h4 className="text-base font-display font-semibold text-foreground">{person.name}</h4>
-                  <p className="text-sm text-accent font-medium">{person.role}</p>
+                <div className="space-y-4 text-sm text-muted-foreground leading-relaxed">
+                  {person.bio.split("\n\n").map((paragraph, idx) => (
+                    <p key={idx}>{paragraph}</p>
+                  ))}
+                  {"cta" in person && (
+                    <p className="italic text-accent/80 border-t border-border pt-4 mt-4">{person.cta}</p>
+                  )}
                 </div>
-                {person.linkedin && (
-                  <a href={person.linkedin} target="_blank" rel="noopener noreferrer"
-                    className="text-muted-foreground hover:text-accent transition-colors">
-                    <Linkedin size={18} />
-                  </a>
-                )}
-              </div>
-              <div className="text-sm text-muted-foreground leading-relaxed space-y-3">
-                {person.bio.split("\n\n").map((paragraph, idx) => (
-                  <p key={idx}>{paragraph}</p>
-                ))}
               </div>
             </motion.div>
           ))}
