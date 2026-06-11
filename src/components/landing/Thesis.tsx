@@ -16,7 +16,7 @@ const criteria = [
   },
   {
     icon: Target,
-    title: "$2M–$5M EBITDA",
+    title: "$1M–$4M EBITDA",
     description:
       "Target businesses generating stable and growing cash flows, demonstrating financial strength and operational discipline.",
   },
