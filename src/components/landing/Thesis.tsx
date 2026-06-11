@@ -12,7 +12,7 @@ const criteria = [
     icon: Users,
     title: "Loyal Customer Base",
     description:
-      "Serving mission-critical security needs with high retention rates and long-term customer relationships.",
+      "Serving mission-critical needs with high retention rates and long-term customer relationships.",
   },
   {
     icon: Target,
