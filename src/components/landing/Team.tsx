@@ -29,7 +29,7 @@ const people = [
 
 const Team = () => {
   return (
-    <section id="team" className="py-24 md:py-32 bg-muted/40">
+    <section id="team" className="py-24 md:py-32 bg-background">
       <div className="container">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
