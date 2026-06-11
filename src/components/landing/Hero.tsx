@@ -41,7 +41,7 @@ const Hero = () => {
             />
             <span className="w-8 h-px bg-accent/50" />
             <p className="text-accent/90 font-display text-xs tracking-[0.22em] uppercase font-medium">
-              Security Industry · Houston, TX
+              Houston, TX
             </p>
           </div>
 
@@ -49,13 +49,12 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl lg:text-[4.5rem] font-display font-bold text-primary-foreground leading-[1.08] tracking-tight mb-7">
             Building upon the legacy of{" "}
             <em className="not-italic text-accent">exceptional</em>{" "}
-            security businesses.
+             businesses.
           </h1>
 
           <p className="text-lg md:text-xl text-primary-foreground/65 font-body font-light max-w-xl leading-relaxed mb-12">
             Two Evergreen is dedicated to acquiring, operating, and growing a
-            single security company — with the same care and commitment the
-            owner built it with.
+            single business — with the same care, commitment, and long-term perspective that built it.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
