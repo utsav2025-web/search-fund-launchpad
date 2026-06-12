@@ -11,18 +11,18 @@ const people = [
     cta: "We'd love the opportunity to get to know you and learn the story behind your business.",
   },
   {
-    name: "Matthew W.",
+    name: "Matt W.",
     role: "Co-Founder and Operating Partner",
     initials: "MW",
     linkedin: "",
-    bio: "I'm a U.S. Navy veteran who has spent more than twenty years founding, operating, and growing businesses from the ground up. Over the course of my career, I've built and successfully exited multiple companies serving government and commercial customers, including Fortune 100 organizations such as Marathon.\n\nAfter decades of building businesses, I've come to believe that great companies are defined by their people, culture, and reputation. The most successful organizations invest in their employees, put customers first, and take a long-term view. That's the approach I've tried to bring to every business I've led.\n\nFive years ago, I met Utsav. His experience as both an investor and operator complements my background as a founder and business builder. Together, we bring different perspectives but share the same goal: honoring what owners have built while creating opportunities for employees, customers, and the communities they serve.\n\nWe're not looking to buy a business and move on. We're looking for a great company to own, operate, and strengthen for the long term. Our goal is to honor the legacy you've built, invest in your employees and customers, and continue strengthening the business for the next generation.\n\n Outside of work, you'll usually find me with my family, traveling to cheer on my kids at their sporting events.",
+    bio: "I'm a US Navy veteran who has spent more than twenty years founding, operating, and growing businesses from the ground up. Over the course of my career, I've built and successfully exited multiple companies serving government and commercial customers, including Fortune 100 organizations such as Marathon.\n\nAfter decades of building businesses, I've come to believe that great companies are defined by their people, culture, and reputation. The most successful organizations invest in their employees, put customers first, and take a long-term view. That's the approach I've tried to bring to every business I've led.\n\nFive years ago, I met Utsav. His experience as both an investor and operator complements my background as a founder and business builder. Together, we bring different perspectives but share the same goal: honoring what owners have built while creating opportunities for employees, customers, and the communities they serve.\n\nWe're not looking to buy a business and move on. We're looking for a great company to own, operate, and strengthen for the long term. Our goal is to honor the legacy you've built, invest in your employees and customers, and continue strengthening the business for the next generation.\n\n Outside of work, you'll usually find me with my family, traveling to cheer on my kids at their sporting events.",
   },
   {
     name: "Jim N.",
     role: "Advisor",
     initials: "JN",
     linkedin: "",
-    bio: "Jim is an Army veteran and senior executive who most recently served as the Global Head of Security at a Fortune 100 company. He has spent decades building teams, leading complex organizations, and developing leaders in high-stakes environments. As an advisor to Two Evergreen, he brings valuable experience in leadership, operations, and organizational growth.",
+    bio: "Jim is a US Army veteran and senior executive who most recently served as the Global Head of Security at a Fortune 100 company. He has spent decades building teams, leading complex organizations, and developing leaders in high-stakes environments. As an advisor to Two Evergreen, he brings valuable experience in leadership, operations, and organizational growth.",
   },
 ];
 
