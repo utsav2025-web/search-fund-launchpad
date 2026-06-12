@@ -6,7 +6,7 @@ const people = [
     name: "Utsav G.",
     role: "Co-Founder",
     initials: "UG",
-    linkedin: "https://www.linkedin.com/in/utsavghosh20/",
+    linkedin: "",
     bio: "I grew up in Portland, Oregon, spending weekends renovating houses with my dad and unloading pallets at my first job. Those experiences gave me a lasting appreciation for the people who keep businesses running every day.\n\nEarlier in my career, I invested in privately owned companies across a range of industries. Over time, I found myself drawn less to the deals and more to the operators behind them — the people leading teams, serving customers, and building something that would last. That led me into operating roles, most recently as CFO and COO of CCOM, a maritime services company, where I helped scale the business, launch a software product, and strengthen operations.\n\nFive years ago, I met Matt. We share a simple belief: when someone hands over a business they've spent years building, the people, culture, and reputation they've created deserve to be protected. His experience founding, operating, and exiting businesses complements my background in investing and scaling businesses, giving us a shared appreciation for both what it takes to build a business and what it takes to grow one.\n\n Outside of work, I spend most of my time with my very food-motivated dog, Frankie.",
     cta: "We'd love the opportunity to get to know you and learn the story behind your business.",
   },
@@ -23,6 +23,13 @@ const people = [
     initials: "JN",
     linkedin: "",
     bio: "Jim is a US Army veteran and senior executive who most recently served as the Global Head of Security at a Fortune 100 company. He has spent decades building teams, leading complex organizations, and developing leaders in high-stakes environments. As an advisor to Two Evergreen, he brings valuable experience in leadership, operations, and organizational growth.",
+  },
+  {
+    name: "Bill F.",
+    role: "Advisor",
+    initials: "BF",
+    linkedin: "",
+    bio: "Bill is a former executive with deep experience driving business growth and developing customer relationships.",
   },
 ];
 
